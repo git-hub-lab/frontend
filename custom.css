@@ -1,0 +1,91 @@
+hr {
+	background-color: #f79f2a;
+	height: 1.2;
+	margin: 0
+}
+
+body {
+	height: auto
+}
+
+#write {
+	padding: 0
+}
+
+#links {
+	font-size: 16px
+}
+
+p, label {
+	font-size: 20px
+}
+
+#space {
+	padding-top: 50px;
+}
+
+h1::before, h2::before, h3::before {
+	display: none
+}
+
+table tr td {
+    background: #131b29;
+    border: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+input, textarea, button {
+	font-family: "Nunito", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 100%;
+	font-size: 20px;
+	background-color: #131b29;
+	margin-bottom: 10px;
+	border: 1px solid #f79f2a;
+	color: white
+}
+
+
+.uk-open>.uk-modal-dialog {
+    opacity: 1;
+    background-color: #141d28;
+}
+
+.mobile-img {
+	display: none;
+}
+
+.nav-img {
+	width: 20%;
+}
+
+.nav {
+	width: 80%;
+}
+
+@media screen and (max-width: 640px) {
+
+	.nav-img {
+		display: none;
+		padding: 0
+	}
+	
+	.nav {
+		width: 100vw;
+		padding: 10px 0 0 0
+	}
+
+	.mobile-img {
+		display: block;
+		width: 20vw
+	}
+
+}
+
+.form-l {
+	width: 5vw;
+}
+.form-r {
+	width: 95vw;
+	padding: 0
+}
