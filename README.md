@@ -18,6 +18,7 @@ Notice: The front-end, without a backend linked, is useless. Check out the [back
 
 1. Fork this repo (if you want to deploy to Netlify) or download it (if you want to deploy to your local server)
 2. Edit the file `create.js` and replace `https://apidel.massivebox.eu.org/setbot` with `https://HOST.OF.YOUR.BACKEND/setbot`.
+3. Edit the `privacy.html` and `terms.html` files with your contact information and adjusting the information as you please.
 4. Deploy as you'd usually do. [Here's](https://www.netlify.com/blog/2016/09/29/a-step-by-step-guide-deploying-on-netlify/) an handy guide for Netlify, if you're a beginner.
 5. That's it. Here's a cat to fill some space:
 
